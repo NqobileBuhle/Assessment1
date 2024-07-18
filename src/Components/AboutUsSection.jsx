@@ -5,9 +5,9 @@ import drone8 from "../assets/Drones/drone8.jpg";
 export const AboutUsSection = () => {
   return (
     <div className="paragraph-container">
-      <div className="Asset">
-      <img className="card-img-top" src={drone8} alt=""  />
-      </div>
+      
+      <img src={drone8} alt=""  />
+   
       <div className="content">
         <div className="about">
           <h2>

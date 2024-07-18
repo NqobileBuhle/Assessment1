@@ -22,7 +22,7 @@ export const Footer = () => {
             <a href="about-us">ABOUT US</a>
             <a href="articles">ARTICLES</a>
           </div>
-          <button type="button" className="button2">SUBSCRIBE</button>
+          <button type="button" >SUBSCRIBE</button>
         </div>
       </div>
     </footer>

@@ -22,28 +22,28 @@ import drone6 from "../assets/Drones/drone6.jpg";
               <div className="card">
                 <img className="card-img-top" src={drone1} alt=""  />
                 <hr />
-                <p>How to automate surveillance drones</p>
+                <p>How to automate <br/>surveillance drones</p>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <img className="card-img-top" src={drone2} alt=""   /><br />
                 <hr />
-                <p>Robotics and Artificial Intelligence</p>
+                <p>Robotics and Artificial<br/> Intelligence</p>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <img className="card-img-top" src={drone4} alt=""   /><br />
                 <hr />
-                <p>Improve Lives through Robotics Prosthetics</p>
+                <p>Improve Lives through Robotics   Prosthetics</p>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <img className="card-img-top" src={drone6} alt=""   /><br />
                 <hr />
-                <p>Power of Robotics in Agriculture</p>
+                <p>Power of Robotics in <br/>Agriculture</p>
               </div>
             </div>
           </div>

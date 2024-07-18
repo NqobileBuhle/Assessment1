@@ -30,6 +30,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: var(--backdrop-color);
 }
 
 .logo {
@@ -138,6 +139,10 @@ h1 {
   border: 15px;
   padding: 20px 16px 20 px 16px;
 }
+.menu-container a{
+text-decoration: none;
+color: var(--secondary-color);
+}
 .menu-links{
   display: flex;
   gap: 40px;
@@ -149,8 +154,7 @@ h1 {
   margin-top: 20px;
 }
 
-.button1,
-.button2 {
+.button1 {
   font-size: var(--about-articles);
   padding: 12px 40px;
   border: 3px solid var(--secondary-color);
@@ -201,19 +205,9 @@ h1 {
   display: inline-block;
   margin-left:50%;
   transform: translate(-50px); 
+  background-color: white;
 }
-
- .Asset {
-  width: 100%;
-  height: auto;
-  padding:  5px;
-  object-fit: cover;
-  max-height: 680px;
-  display: absolute;
-  text-align: center;
-
-
-}
+.c
 
 .column:hover {
   cursor: pointer;
@@ -263,15 +257,11 @@ hr {
   position: relative;
   text-align: left;
   border: #000000;
-
-
 }
-.card-img-top{
-  width: 100%;
-  height: 100%;
-  
+.paragraph-container img{
+  width: 50%;
+  height: 750px;
 }
-
 .content {
   flex: 1;
   padding-left: 40px;
@@ -284,6 +274,7 @@ hr {
   align-items: center;
   gap: 84px;
   text-justify:inter-word;
+  background-color: white;
 }
 
 .paragraph {
@@ -330,7 +321,7 @@ hr {
   background-size: cover;
   width: 100%;
   height: 400px;
-  margin-top: -35px;
+  margin-top: 55px;
 }
 
 .subscribe {
@@ -358,11 +349,11 @@ hr {
 .Footersubscribe{
   align-items: center;
   text-align: center;
-  padding-bottom: 10px;
+  margin-top: 30px;
 }
 .footer-container{
-  height: 100px;
-
+  height: 50px;
+  background-color: white;
 }
 
 .Asset {
@@ -388,10 +379,25 @@ hr {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 20px;
+  
 }
-
+.contain a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.contain button{
+  font-size: var(--about-articles);
+  padding: 12px 40px;
+  border: 3px solid var(--secondary-color);
+  margin-left: auto;
+  margin-top: -50px;
+  background-color: transparent;
+  margin-right: 12px;
+  text-align: right;
+  margin-top: 30px;
+}
 .contain .links {
-  margin-top: -70px;
   margin-right: 40px;
 }
 
@@ -401,6 +407,7 @@ hr {
   justify-content: flex-start;
   margin-top: 25px;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .social a {
@@ -411,12 +418,11 @@ hr {
   width: 15px;
   padding: 9px;
   text-decoration: none;
-  color: var(--secondary-color);
+ 
   margin: 0 10px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  background-color: #cbdeec;
 }
 
 .social a .fab {
@@ -424,7 +430,7 @@ hr {
   line-height: 40px;
   position: relative;
   z-index: 10;
-  color: #f8f8f8;
+  color: #cbdeec;
 }
 
 .footer-container {
@@ -432,7 +438,7 @@ hr {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 6px;
 
 }
 
